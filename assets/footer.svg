@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70">
+<defs>
+<filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter><linearGradient id="sp" x1="0" x2="1"><stop offset="0" stop-color="#8B5CFF"/><stop offset="0.16666666666666666" stop-color="#4C86FF"/><stop offset="0.3333333333333333" stop-color="#00F0FF"/><stop offset="0.5" stop-color="#39FF88"/><stop offset="0.6666666666666666" stop-color="#FFE14A"/><stop offset="0.8333333333333334" stop-color="#FF7A3D"/><stop offset="1" stop-color="#FF2BD6"/></linearGradient></defs>
+<style>.f{animation:f 3s ease-in-out infinite}@keyframes f{50%{opacity:.4}}</style>
+<rect x="0" y="12" width="1200" height="3" fill="url(#sp)" filter="url(#g)"/>
+<text class="f" x="600" y="52" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="15" fill="#5B6B7F" letter-spacing="6">// END OF TRANSMISSION //</text>
+</svg>

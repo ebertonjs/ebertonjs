@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<defs>
+  
+<filter id="g1" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="4" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="g2" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="2" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#05070D" stop-opacity="1"/><stop offset="1" stop-color="#05070D" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#00F0FF"/><stop offset="0.55" stop-color="#8B5CFF"/><stop offset="1" stop-color="#FF2BD6"/>
+  </linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00F0FF" stop-opacity="0"/><stop offset="1" stop-color="#00F0FF" stop-opacity="0.18"/>
+  </linearGradient>
+  <clipPath id="clip"><rect width="1200" height="340" rx="14"/></clipPath>
+</defs>
+<style>
+  .ch{animation:eq 1.6s ease-in-out infinite alternate}
+  @keyframes eq{0%{transform:scaleY(.35)}100%{transform:scaleY(1)}}
+  .scan{animation:scan 4s linear infinite}
+  @keyframes scan{0%{transform:translateY(-80px)}100%{transform:translateY(340px)}}
+  .blink{animation:blink 1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  .tw{animation:tw 3s steps(44) .3s both;transform-origin:60px 0}
+  @keyframes tw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  .pulse{animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{50%{opacity:.25}}
+  .gridl{animation:gridm 2.5s linear infinite}
+  @keyframes gridm{from{transform:translateY(0)}to{transform:translateY(6px)}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="340" fill="#05070D"/>
+  <g stroke="#8B5CFF" stroke-opacity=".35" stroke-width="1" class="gridl"><line x1="404" y1="250" x2="-660" y2="340"/><line x1="418" y1="250" x2="-570" y2="340"/><line x1="432" y1="250" x2="-480" y2="340"/><line x1="446" y1="250" x2="-390" y2="340"/><line x1="460" y1="250" x2="-300" y2="340"/><line x1="474" y1="250" x2="-210" y2="340"/><line x1="488" y1="250" x2="-120" y2="340"/><line x1="502" y1="250" x2="-30" y2="340"/><line x1="516" y1="250" x2="60" y2="340"/><line x1="530" y1="250" x2="150" y2="340"/><line x1="544" y1="250" x2="240" y2="340"/><line x1="558" y1="250" x2="330" y2="340"/><line x1="572" y1="250" x2="420" y2="340"/><line x1="586" y1="250" x2="510" y2="340"/><line x1="600" y1="250" x2="600" y2="340"/><line x1="614" y1="250" x2="690" y2="340"/><line x1="628" y1="250" x2="780" y2="340"/><line x1="642" y1="250" x2="870" y2="340"/><line x1="656" y1="250" x2="960" y2="340"/><line x1="670" y1="250" x2="1050" y2="340"/><line x1="684" y1="250" x2="1140" y2="340"/><line x1="698" y1="250" x2="1230" y2="340"/><line x1="712" y1="250" x2="1320" y2="340"/><line x1="726" y1="250" x2="1410" y2="340"/><line x1="740" y1="250" x2="1500" y2="340"/><line x1="754" y1="250" x2="1590" y2="340"/><line x1="768" y1="250" x2="1680" y2="340"/><line x1="782" y1="250" x2="1770" y2="340"/><line x1="796" y1="250" x2="1860" y2="340"/><line x1="0" y1="250" x2="1200" y2="250"/><line x1="0" y1="256" x2="1200" y2="256"/><line x1="0" y1="265" x2="1200" y2="265"/><line x1="0" y1="278" x2="1200" y2="278"/><line x1="0" y1="295" x2="1200" y2="295"/><line x1="0" y1="316" x2="1200" y2="316"/><line x1="0" y1="340" x2="1200" y2="340"/></g>
+  <rect y="246" width="1200" height="40" fill="url(#fade)"/>
+  <line x1="0" y1="250" x2="1200" y2="250" stroke="#FF2BD6" stroke-width="1.5" filter="url(#g2)" opacity=".8"/>
+
+  <g filter="url(#g2)" opacity=".95"><rect class="ch" x="764" y="195" width="8" height="40" fill="#8B5CFF" style="animation-delay:-0.00s;transform-origin:768px 235px"/><rect class="ch" x="780" y="158" width="8" height="77" fill="#8B5CFF" style="animation-delay:-0.17s;transform-origin:784px 235px"/><rect class="ch" x="796" y="191" width="8" height="44" fill="#6E6BFF" style="animation-delay:-0.34s;transform-origin:800px 235px"/><rect class="ch" x="812" y="154" width="8" height="81" fill="#6E6BFF" style="animation-delay:-0.51s;transform-origin:816px 235px"/><rect class="ch" x="828" y="187" width="8" height="48" fill="#4C86FF" style="animation-delay:-0.68s;transform-origin:832px 235px"/><rect class="ch" x="844" y="150" width="8" height="85" fill="#4C86FF" style="animation-delay:-0.85s;transform-origin:848px 235px"/><rect class="ch" x="860" y="183" width="8" height="52" fill="#22B8FF" style="animation-delay:-1.02s;transform-origin:864px 235px"/><rect class="ch" x="876" y="146" width="8" height="89" fill="#22B8FF" style="animation-delay:-1.19s;transform-origin:880px 235px"/><rect class="ch" x="892" y="179" width="8" height="56" fill="#00F0FF" style="animation-delay:-1.36s;transform-origin:896px 235px"/><rect class="ch" x="908" y="142" width="8" height="93" fill="#00F0FF" style="animation-delay:-1.53s;transform-origin:912px 235px"/><rect class="ch" x="924" y="175" width="8" height="60" fill="#00FFC6" style="animation-delay:-0.10s;transform-origin:928px 235px"/><rect class="ch" x="940" y="138" width="8" height="97" fill="#00FFC6" style="animation-delay:-0.27s;transform-origin:944px 235px"/><rect class="ch" x="956" y="171" width="8" height="64" fill="#39FF88" style="animation-delay:-0.44s;transform-origin:960px 235px"/><rect class="ch" x="972" y="134" width="8" height="101" fill="#39FF88" style="animation-delay:-0.61s;transform-origin:976px 235px"/><rect class="ch" x="988" y="167" width="8" height="68" fill="#B6FF3B" style="animation-delay:-0.78s;transform-origin:992px 235px"/><rect class="ch" x="1004" y="130" width="8" height="105" fill="#B6FF3B" style="animation-delay:-0.95s;transform-origin:1008px 235px"/><rect class="ch" x="1020" y="163" width="8" height="72" fill="#FFE14A" style="animation-delay:-1.12s;transform-origin:1024px 235px"/><rect class="ch" x="1036" y="126" width="8" height="109" fill="#FFE14A" style="animation-delay:-1.29s;transform-origin:1040px 235px"/><rect class="ch" x="1052" y="159" width="8" height="76" fill="#FFB800" style="animation-delay:-1.46s;transform-origin:1056px 235px"/><rect class="ch" x="1068" y="192" width="8" height="43" fill="#FFB800" style="animation-delay:-0.03s;transform-origin:1072px 235px"/><rect class="ch" x="1084" y="155" width="8" height="80" fill="#FF7A3D" style="animation-delay:-0.20s;transform-origin:1088px 235px"/><rect class="ch" x="1100" y="188" width="8" height="47" fill="#FF7A3D" style="animation-delay:-0.37s;transform-origin:1104px 235px"/><rect class="ch" x="1116" y="151" width="8" height="84" fill="#FF2BD6" style="animation-delay:-0.54s;transform-origin:1120px 235px"/><rect class="ch" x="1132" y="184" width="8" height="51" fill="#FF2BD6" style="animation-delay:-0.71s;transform-origin:1136px 235px"/></g>
+  <text x="760" y="258" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#5B6B7F" letter-spacing="1">λ 1530nm</text>
+  <text x="1144" y="258" text-anchor="end" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#5B6B7F" letter-spacing="1">1565nm</text>
+  <text x="760" y="102" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="12" fill="#00F0FF" letter-spacing="2" opacity=".85">DWDM // C-BAND MONITOR</text>
+
+  <text x="60" y="70" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#00F0FF" letter-spacing="3">SYS://NOC-N2</text>
+  <g class="pulse"><circle cx="226" cy="65" r="5" fill="#39FF88" filter="url(#g2)"/></g>
+  <text x="240" y="70" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="14" fill="#39FF88" letter-spacing="3">LINK UP</text>
+
+  <text x="56" y="168" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-weight="800" font-size="92" letter-spacing="10" fill="url(#title)" filter="url(#g1)">EDINHO</text>
+  <text x="62" y="200" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="16" fill="#C9D1D9" letter-spacing="5" opacity=".8">NETWORK OPS · AUTOMATION · SELF-HOSTED</text>
+
+  <clipPath id="tc"><rect class="tw" x="60" y="212" width="640" height="30"/></clipPath>
+  <text clip-path="url(#tc)" x="60" y="233" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="17" fill="#00F0FF">&gt; NOC N2 · TELECOM/ISP · NETWORK AUTOMATION</text>
+  <rect class="blink" x="516" y="218" width="10" height="20" fill="#00F0FF"/>
+
+  <rect class="scan" y="0" width="1200" height="80" fill="url(#scan)"/>
+</g>
+
+<g stroke="#00F0FF" stroke-width="2.5" fill="none">
+  <path d="M12 42V12H42"/><path d="M1158 12H1188V42"/>
+  <path d="M12 298V328H42"/><path d="M1158 328H1188V298"/>
+</g>
+<rect x="1" y="1" width="1198" height="338" rx="14" fill="none" stroke="#16324A" stroke-width="2"/>
+</svg>

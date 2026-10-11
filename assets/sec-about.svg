@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46">
+<defs>
+<filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="2" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#00F0FF"/><stop offset="1" stop-color="#00F0FF" stop-opacity="0"/></linearGradient></defs>
+<style>.s{animation:s 2.4s ease-in-out infinite}@keyframes s{50%{opacity:.35}}</style>
+<text x="2" y="30" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-size="15" fill="#5B6B7F" letter-spacing="2">[01]</text>
+<text x="52" y="30" font-family="'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace" font-weight="700" font-size="20" fill="#00F0FF" letter-spacing="4" filter="url(#g)">// WHOAMI</text>
+<rect class="s" x="202.4" y="16" width="8" height="16" fill="#00F0FF"/>
+<line x1="232.4" y1="24" x2="900" y2="24" stroke="url(#l)" stroke-width="1.5"/>
+</svg>
